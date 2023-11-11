@@ -7,6 +7,7 @@
 </head>
 <body>
 
+<pre>
 <?php
 $data[0] = '山田';
 $data[1] = '掛谷';
@@ -20,6 +21,8 @@ print "<br>";
 print_r($data);
 
 ?>
+</pre>
+
 
 </body>
 </html>
