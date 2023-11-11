@@ -8,8 +8,10 @@
 <body>
 
 <?php
-print  __FILE__ ;
+print  "実行中のファイル名 = ;
+print __FILE__ ;
 print "<br>";
+print "実行中の行番号 = ";
 print __LINE__;
 print "<br>";
 
