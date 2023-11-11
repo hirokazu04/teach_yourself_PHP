@@ -8,7 +8,7 @@
 <body>
 
 <?php
-print  "実行中のファイル名 = ;
+print  "実行中のファイル名 = ";
 print __FILE__ ;
 print "<br>";
 print "実行中の行番号 = ";
