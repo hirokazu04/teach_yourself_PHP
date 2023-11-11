@@ -16,6 +16,9 @@ $data[1] = '薄井';
 $data[] = '矢吹';
 print $data[4];
 
+print "<br>";
+print_r($data);
+
 ?>
 
 </body>
