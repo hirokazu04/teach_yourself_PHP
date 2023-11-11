@@ -8,9 +8,11 @@
 <body>
 
 <?php
-print "現在実行中のファイル名= { __FILE__ }  <br>";
-print "現在実行中の行番号= { __LINE__ }  <br>";
-print "現在実行中のディレクトリ= { __DIR__ }  <br>";
+print  __FILE__ ;
+print "<br>";
+print __LINE__;
+print "<br>";
+
 
 ?>
 
