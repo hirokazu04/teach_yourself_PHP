@@ -14,8 +14,10 @@ $data2 = 'サポートサイト\t「{$title}」へ<br>';
 print $data1;
 print $data2;
 
-print "実行中のファイル名 = {__FILE__}<br>";
-print "実行中の行番号 = {__LINE__}<br>";
+$a1 = __FILE__;
+$a2 = __LINE__;
+print "実行中のファイル名 = { $a1 }<br>";
+print "実行中の行番号 = { $a2 }<br>";
 
 
 ?>
